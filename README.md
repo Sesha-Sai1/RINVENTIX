@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+// <div style={{ display: "flex" }}>
+// <div style={{ width: "25%" }}>
+// <Sidebar />
+// </div>
+// <div
+// style={{
+    //       width: "75%",
+    //       alignContent: "center",
+    //       justifyContent: "center",
+    //     }}
+// >
+// <MainChatScreen />
+// </div>
+// </div>
+
+// const updatedArray = [...data, search];
+// setArrayStorage(updatedArray);
+// localStorage.setItem("data", JSON.stringify(arrayStorage));
+// setSearch("");

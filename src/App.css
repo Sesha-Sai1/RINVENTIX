@@ -2,37 +2,39 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebarContainer{
+  background-color: rgb(201, 201, 201);
+  height: 100vh;
+  /* position: fixed; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainHead{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+/* .mainScreen{
+  width: 70%;
+} */
+
+.previous5Charts{
+  margin-block: 20px;
+  line-height: 5px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.previous30DaysCharts{
+  margin-block: 20px;
+  line-height: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.previous30DaysCharts p , .previous5Charts P{
+ cursor: pointer;
+}
+
+body{
+  margin: 0;
+  padding: 0;
 }
