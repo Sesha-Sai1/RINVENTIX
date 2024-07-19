@@ -1,40 +1,159 @@
 .App {
   text-align: center;
 }
-
-.sidebarContainer{
-  background-color: rgb(201, 201, 201);
-  height: 100vh;
-  /* position: fixed; */
-}
-
-.mainHead{
-  display: flex;
-  justify-content: space-between;
-}
-/* .mainScreen{
-  width: 70%;
-} */
-
 .previous5Charts{
   margin-block: 20px;
-  line-height: 5px;
-  font-size: 18px;
+  line-height: 22px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .previous30DaysCharts{
   margin-block: 20px;
-  line-height: 10px;
-  font-size: 18px;
+  line-height: 22px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .previous30DaysCharts p , .previous5Charts P{
  cursor: pointer;
 }
+/* .previous30DaysCharts p , .previous5Charts P:hover{
+ 
+} */
 
 body{
   margin: 0;
   padding: 0;
 }
+
+.mainContent{
+  position: absolute;
+  width: 876px;
+  height: 36px;
+  left: 384px;
+  top: 106px;
+}
+.dropDown{
+  margin-left: -590px;
+  position: relative;
+  bottom: 70px;
+  
+}
+.mainHeading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  color: #10AE82;
+}
+.chatInput{
+  position: absolute;
+  width: 804px;
+  height: 72px;
+  left: 450px;
+  top: 624px;
+
+}
+.mainContainer{
+  position: relative;
+  width: 1140px;
+  height: 674px;
+  left: 65px;
+  top: 171px;
+  background: #FFFFFF;
+  overflow-y: hidden;
+}
+
+.sideBar{
+  position: absolute;
+  width: 264px;
+  height: 674px;
+  left: 0px;
+  top: 0px;
+  background-color: #F3F4F6;
+  padding: 12px;
+
+}
+
+.rectangle{
+  position: absolute;
+  width: 252px;
+  height: 652px;
+  left: 12px;
+  top: 67px;
+  text-align: start;
+}
+
+.footer{
+ margin-top: 200px;
+ text-align: center;
+
+}
+
+.mainImage{
+  border-radius: 2px;
+}
+
+
+.userChatReferenceContainer{
+
+position: relative;
+width: 1000px;
+height: 1503px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+}
+
+.sideBarContainer{
+position: absolute;
+width: 264px;
+left: 0px;
+top: 0%;
+bottom: 0%;
+background: #F3F4F6;
+height: 1503px;
+position: fixed;
+padding: 12px;
+
+}
+
+.mainContentContainer{
+  width: 736px;
+  position: absolute;
+  height: 36px;
+  left: 384px;
+  top: 106px;
+ 
+}
+
+.chatContainer{
+
+position: absolute;
+width: 845px;
+height: 1900.73px;
+left: 155px;
+top: 14px;
+
+
+}
+
+.chatInput{
+  position: absolute;
+  top: 2050px;
+  left: 0px;
+}
+
+
+
+
+
+
+
+
